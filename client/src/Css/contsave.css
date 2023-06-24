@@ -1,0 +1,43 @@
+.bg{
+    background-color: #0d6985;
+    padding: 50px;
+   
+  }
+.body{
+    max-width: 600px;
+    width: 90%;
+    background:#ffffff;
+    margin: 0px auto;
+    height:40vh;
+   
+  }
+.body .text{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.text button{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 12px 15px;
+    outline: none;
+    background:rgb(46, 150, 199);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+.text button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(44, 143, 209);
+   
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.301);
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+.home{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    text-align: justify;
+}
+.home-col{
+   margin: 0px 10px;
+}
+.home h3,
+.emg h3{
+    font-weight: 800;
+    color: rgb(47, 88, 177);
+   text-align: center;
+}
+.emg .list{
+  
+    padding-left: 10px;
+    margin-left: 10px;
+}

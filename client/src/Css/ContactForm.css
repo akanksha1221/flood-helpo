@@ -1,0 +1,85 @@
+
+.box{
+  padding: 10px 10px;
+  margin: 40px 10px;
+  background: #ffffff;
+  text-align: center;
+  background-color: #cccccc3b;
+}
+.box h1{
+  color: rgb(20, 134, 241);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box textarea[id = "message"]
+{
+  overflow: hidden;
+  resize: none;
+}
+
+.box input[type = "text"],
+.box input[type = "email"],
+.box input[type = "tel"],
+.box textarea[id = "message"]
+{
+  background-color: #fff;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #3498db;
+  padding: 14px 10px;
+  width: 350px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: 0.25s;
+  position: relative;
+}
+.box input[type = "text"]:focus,
+.box input[type = "tel"]:focus,
+.box input[type = "email"]:focus,
+.box textarea[id = "message"]:focus{
+  width: 400px;
+  border-color: #b9a814;
+  border-radius: 7px;
+}
+.box button{
+  border:0;
+  background-color: #fff;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: #127ebd;
+  border-radius: 4px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.box button:hover{
+  background: #0463bb;
+  color: #fff;
+  border: 1px solid #0d6294;
+}
+
+@media screen and (max-width: 500px){
+  .box input[type = "text"],
+  .box input[type = "email"],
+  .box input[type = "tel"],
+  .box textarea[id = "message"]
+  {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 320px){
+  .box input[type = "text"],
+  .box input[type = "email"],
+  .box input[type = "tel"],
+  .box textarea[id = "message"]
+  {
+    max-width: 200px;
+  }
+}
+
